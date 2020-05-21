@@ -29,7 +29,7 @@ app.use(function(err, req, res, next) {
 });
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://user1:password1@sd125871.mlab.com:25871/heroku_0xn0jnj7");
 
 // Start the API server
 app.listen(PORT, function() {
